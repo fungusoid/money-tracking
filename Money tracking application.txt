@@ -1,0 +1,18 @@
+Money tracking application
+
+Implementation: react, node, sqlite
+
+Tracks money coming in and going out
+
+Basic data that is stored:
+-	transaction
+o	date (day, month, year)
+o	account (free text)
+o	amount of money (in euros) (positive for incoming, negative for outgoing)
+o	category (free text)
+o	description (free text)
+
+Pages:
+-	a paginated list of transactions; from most recent to oldest; to the right of a transaction there is a delete button; at the top of the page there should be a place where a new transaction can be added; also at the top of the page there should be a list of the balances of all accounts that have been mentioned in the transactions (all balances start from zero at the start);
+-	a paginated list of monthly stats; for each month show the balances of all the accounts (show account balance at start of month and at end of month (or the current date) and their difference); also show how much money was spent in each category (sort by largest to smallest);
+
